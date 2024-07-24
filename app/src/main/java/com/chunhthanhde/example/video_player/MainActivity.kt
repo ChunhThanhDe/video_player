@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
         //Find the VideoView class by its id
         val videoView = findViewById<VideoView>(binding.testView.id)
         //Creating MediaController
